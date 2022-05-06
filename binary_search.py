@@ -1,4 +1,4 @@
-# Implement Binary Search in Python
+# Implement Binary search algorithm in python
 def binary_search(arr, n, key):
     left = 0
     right = n - 1

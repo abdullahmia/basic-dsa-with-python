@@ -1,3 +1,4 @@
+# Implement Linear search algorithm in python
 def linear_search(numbers, n, x):
     for i in range(0, n):
         if numbers[i] == x:
