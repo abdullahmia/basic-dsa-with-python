@@ -8,6 +8,7 @@ def bubble_sort(arr, n):
                 arr[j + 1] = temp
 
 
-numbers = [-2, 45, 0, 11, -9]
-bubble_sort(numbers, len(numbers))
-print(f"The sorted list is: {numbers}")
+if __name__ == '__main__':
+    numbers = [-2, 45, 0, 11, -9]
+    bubble_sort(numbers, len(numbers))
+    print(f"The sorted list is: {numbers}")
